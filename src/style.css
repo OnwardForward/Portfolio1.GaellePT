@@ -19,6 +19,14 @@ h3 {
     font-size: 30px
 }
 
+h4 {
+    color: var(--heading-font-family);
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 1;
+}
+
 P {
     font-weight: normal;
     font-size: 16px;
@@ -90,4 +98,12 @@ P {
     padding: 0;
     text-align: center;
   }
+}
+
+footer {
+    text-align: center;
+    font-family: var(--default-font-family);
+    font-size: 13px;
+    margin-top: 30px;
+    /* color: white; */
 }
