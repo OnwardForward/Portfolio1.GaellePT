@@ -19,7 +19,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-    
     <script 
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
@@ -31,11 +30,38 @@
     ></script>
 </head>
 <body>
+<div class="container">
+    <nav class="d-flex justify-content-between">
+    <a href="./index.html">
+        <img src="images/logo1.jpg" class="logo d-none d-md-block" alt="" />
+        <img
+        src="images/logo-small.jpg"
+        class="logo d-block d-md-none"
+        alt=""
+        />
+    </a>
+    <ul>
+        <li class="active">
+        <a href="./index.html"> Home</a>
+        </li>
+        <li>
+        <a href="./about.html"> About</a>
+        </li>
+        <li>
+        <a href="./mywork.html"> Work</a>
+        </li>
+        <li>
+        <a href="./contact.html"> Contact</a>
+        </li>
+    </ul>
+    </nav>
+</div>
+    
 <div class="hero">
     <h1>GAELLE PETZI TIEPMO</h1>
     <h2 class="mb-5"> FRONTEND DEVELOPER, BASED IN UNITED STATES. </h2>
     <div>
-            <a href="#" class="btn btn-branding">Contact me</a>
+            <a href="./contact.html" class="btn btn-branding">Contact me</a>
         </div>
     <p class="text-center m-5">
     Please see below a synopsis of my recent projects respectively: 
@@ -46,7 +72,7 @@
         <img src="images\weather.1.jpg" class="img-fluid" alt="" />
     </div>
     <div class="col">
-        <div class="project-desciption">
+        <div class="project-description">
         <h3 class="mb-5">WEATHER PROJECT</h3>
         <p class="mb-5 text-muted">
             This is a weather app that provides real-time weather information, forecasts, and other related data, of the respective city/location. 
@@ -58,7 +84,7 @@
     </div>
     <div class="row mb-5">
     <div class="col">
-        <div class="project-desciption">
+        <div class="project-description">
         <h3 class="mb-5">CLOCK APP</h3>
         <p class="mb-5 text-muted">
             This app detects and shows exact time worldwide.
@@ -76,7 +102,7 @@
         <img src="images/dictionary.jpg" class="img-fluid" alt="" />
     </div>
     <div class="col">
-        <div class="project-desciption">
+        <div class="project-description">
         <h3 class="mb-5">DICTIONARY APP</h3>
         <p class="mb-5 text-muted">
             This dictionary app gives information about the meanings, forms, pronunciations, uses, and origins of words. 
@@ -86,7 +112,7 @@
     </div>
     <div class="row mb-5">
     <div class="col">
-        <div class="project-desciption">
+        <div class="project-description">
         <h3 class="mb-5">AI PROJECT</h3>
         <p class="mb-5 text-muted">
             This is an artificial intelligence (AI) app generating french poems.
