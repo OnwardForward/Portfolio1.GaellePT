@@ -134,6 +134,10 @@ nav li.active a {
     padding: 0;
     text-align: center;
   }
+.logo {
+  max-height: 210px;
+}
+
 }
 
 footer {
