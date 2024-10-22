@@ -14,8 +14,9 @@ h1 {
   line-height: 1.5;
 }
 
-h2 {
+h2, h3, h4, h5, h6 {
   font-size: 64px;
+  cursor: pointer;
 }
 
 h6 {
@@ -28,19 +29,23 @@ h6 {
 
 p {
   font-weight: normal;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 30px;
+}
+
+img {
+    padding: 30px 5px;
 }
 
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
-  font-size: 36px;
-  font-weight: bold;
+  font-size: 20px;
+  /* font-weight: bold; */
   margin: 0;
   color: #272142;
 }
@@ -53,7 +58,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -105,7 +110,8 @@ p {
   color: white;
   font-size: 18px;
   line-height: 27px;
-  padding: 15px 30px;
+  padding: 10px;
+  font-family: "Poppins", serif;
 }
 
 .btn-branding-outline {
@@ -118,7 +124,7 @@ p {
 }
 
 .logo {
-  max-height: 150px;
+  max-height: 210px;
 }
 
 nav {
@@ -139,13 +145,13 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #272142;
+  color: var(--branding-color);
   transition: all 100ms ease-in-out;
 }
 
 nav a:hover,
 nav li.active a {
-  color: var(--branding-color);
+  color:#6c63ff
 }
 
 

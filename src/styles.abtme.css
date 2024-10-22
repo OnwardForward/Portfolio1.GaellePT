@@ -106,12 +106,13 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #272142;
+  color: var(--branding-color);
   transition: all 100ms ease-in-out;
 }
 
-nav a:hover, nav li.active a {
-  color: var(--branding-color);
+nav a:hover,
+nav li.active a {
+  color:#6c63ff
 }
 
 .project-description {
